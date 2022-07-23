@@ -26,15 +26,15 @@
 🔨作者的打包环境为: `Windows 10 x64 Python3.8` 如果 Windows 系统不是 **Windows 10 64位** 版本,**可能会运行失败**! 如果出现异常报错请截图发 Issue.
 
 1. 下载 EXE 可执行文件  
-  请移步到项目的 [release页](https://github.com/AdminWhaleFall/SMSBoom/releases) 下载
-  
+    请移步到项目的 [release页](https://github.com/AdminWhaleFall/SMSBoom/releases) 下载
+
   > 若遇到国内网络环境下载不下来,请参见 [https://github.do/](https://github.do/) 等加速镜像.
-  
+
 2. 运行  
 
    1. 在任意盘(**除C盘外**)中新建一个文件夹.将程序移动到其中. e.g.  
-   ![](https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/e.g.1.png)
-  
+     ![](https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/e.g.1.png)
+    
    2. `Win`+`R` 打开cmd.输入存放的盘符.例如: `E:` 然后cd到文件夹,例如 `cd SMS`
    ![](https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/cmd1.png)
    
@@ -44,7 +44,7 @@
    5. 使用前必须更新一遍最新接口
     ```shell
     smsboom_pyinstall.exe update
-    ```  
+    ```
     > 若更新接口出现错误 `ssl_`,请参见 [issue](https://github.com/AdminWhaleFall/SMSBoom/issues/2) **关闭代理软件**再 update.
 
    7. 传递参数,命令示例:
@@ -75,13 +75,13 @@
 
 ```shell
 git clone https://github.com/AdminWhaleFall/SMSBoom.git/
-```  
+```
 
 > 墙国加速
 >  
 > ```shell
 > git clone https://github.do/https://github.com/AdminWhaleFall/SMSBoom.git
-> ```  
+> ```
 
 - 方法二：点击下载[项目压缩包](https://github.com/AdminWhaleFall/SMSBoom/archive/refs/heads/master.zip)并解压.  
 
@@ -177,7 +177,7 @@ python smsboom.py run -t 64 -p 198xxxxxxxxx -s -i 60
 启动64个线程,轰//炸多个人的手机号(138xxx,139xxxx),启动循环轰//炸,每个循环间隔60秒。
 
 ```shell
-python smsboom.py run -t 64 -p 138xxxxxxxx -p 139xxxxxxxx -s -i 60
+python smsboom.py run -t 64 -p  17300902976 -p 19816876834 -p 19550219580 -s -i 60
 ```
 
 ## Development
@@ -225,37 +225,4 @@ Options:
 ![](img/webui-test.png)  
 ![](img/webui-test-2.png)  
 
-## 赞助
-[爱发电🔗](https://afdian.net/@smsboom)  
-
-**微/信 && 支/付宝🔗**  
-<center class="half">
-<img src="https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/wx_pay.jpg" width=40%/>
-<img src="https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/aliyun_pay.jpg" width=40%/>
-</center>
-
-> 赞助的金额将用于我每月治疗 **抑/郁症** 的支出.谢谢大家的支持和鼓励! **比心ing**
-
-<center class="half">
-<img src="img/mypic.png" width=70%/>
-</center>
-
-> ~~丑陋的自拍 )逃~~
-
-## Star ♥ 趋势图
-
-<img src="https://starchart.cc/adminwhalefall/smsboom.svg">
-
-## ✨讨论
-
-欢迎加入讨论对项目提出问题和建议！！！mua!
-
-### 企鹅🐧群
-> 企鹅群不允许讨论相关敏感信息!违者上飞机票✈
-
-![企鹅群 QR](https://cdn.jsdelivr.net/gh/AdminWhaleFall/Pic@master/img/20220409151539.jpg)
-
-### Telegram Channel (TG群组)
-> 涉及敏/感信息,政/治,民/主运动话题请到 **TG群聊**
-
-[SMSBoomPro](https://t.me/SMSBoomPro)
+## 

@@ -1,0 +1,6 @@
+{
+  "domain_list": ["x","y","g","l"],
+  "count": 1000,
+  "bits": 4,
+  "exts":[".com",".cn",".net"]
+}
